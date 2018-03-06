@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ApptopIntro22</string>
+    <string name="skip_button">SKIP</string>
+    <string name="done_button">DONE</string>
+    <string name="title_activity_default_intro">DefaultIntro</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

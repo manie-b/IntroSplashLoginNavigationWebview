@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Student Attendance">
+
+
+
+        <menu>
+            <item
+                android:id="@+id/OnlineStudent"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Online" />
+
+            <item
+                android:id="@+id/Update"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Update" />
+
+            <item
+                android:id="@+id/Date_wise_Report"
+                android:icon="@drawable/ic_content_paste_black_24dp"
+                android:title="Date wise Report" />
+
+
+            <item
+                android:id="@+id/Offline"
+                android:icon="@drawable/ic_subtitles_black_24dp"
+                android:title="Offline" />
+
+
+        </menu>
+
+
+    </item >
+
+
+
+    <item android:title="Staff Attendance" >
+
+        <menu>
+
+            <item
+                android:id="@+id/OnlineStaff"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Online" />
+
+            <item
+                android:id="@+id/DateWiseReport"
+                android:icon="@drawable/ic_format_list_numbered_black_24dp"
+                android:title="Date Wise Report" />
+
+            <item
+                android:id="@+id/UpdateStaff"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Update" />
+
+
+        </menu>
+    </item>
+
+
+</menu>

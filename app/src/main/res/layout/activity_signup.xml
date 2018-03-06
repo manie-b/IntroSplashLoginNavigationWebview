@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/signup"
+    android:background="@drawable/walls"
+    tools:context="com.example.manish.apptopintro22.Signup">
+
+
+    <TextView
+        android:id="@+id/tvsignup"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvsignup"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="27dp"
+        android:backgroundTint="#ffeead"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etname"
+        android:layout_alignStart="@+id/etname"
+        android:layout_below="@+id/etname"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#ffeead"
+        android:hint="Address"
+        />
+
+    <EditText
+        android:id="@+id/etemailsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etaddress"
+        android:layout_alignStart="@+id/etaddress"
+        android:layout_below="@+id/etaddress"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#ffeead"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etemailsignup"
+        android:layout_alignStart="@+id/etemailsignup"
+        android:layout_below="@+id/etemailsignup"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#ffeead"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/reenterpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#ffeead"
+        android:hint="Re Enter Password"/>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/reenterpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textColor="#000000"
+        android:background="@drawable/shape"
+        android:text="SignUp" />
+
+    <TextView
+        android:id="@+id/tvtologin"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape"
+        android:text="Already a member? Login"
+        android:textSize="20dp"
+
+        android:clickable="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+
+</RelativeLayout>

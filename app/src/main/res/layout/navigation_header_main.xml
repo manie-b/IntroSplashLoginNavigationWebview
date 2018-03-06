@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:id="@+id/navheader"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/robots"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Navigation_Main"
+
+
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="139dp"
+        android:layout_height="64dp"
+        android:src="@mipmap/logo_transparent"
+        android:layout_weight="0.83" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome.!"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textColor="#ffffff"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:text="Smart Campus"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
